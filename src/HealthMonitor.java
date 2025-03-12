@@ -3,7 +3,7 @@ import java.io.*;
 
 public class HealthMonitor {
     private static final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-    private static final String EMERGENCY_NUMBER = "+989212097028";
+    private static final String EMERGENCY_NUMBER = "+123123123";
     private static String relativeNumber;
     private static int checkCount = 0;
 
